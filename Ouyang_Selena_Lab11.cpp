@@ -68,7 +68,7 @@ int main (){
     double average = 0;
     int hundreds; //number of hundreds 
 
-    for (index = 0; index < 50; index++)
+    for (index = 0; index < 50; index++) //for fifty components
     {
         alpha[index] = (rand() % 100 + 1); // Generate a random number between 1 and 100
         cout << alpha[index] << space;
